@@ -5,15 +5,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 
-
 public class AddContactsSteps {
 
     WebDriver driver;
 
 
+
     @And("Click on Add link")
     public void clickOnAddLink(){
-       // pause(2000);
+       pause(3000);
         click(By.xpath("//a[contains(text(),'ADD')]"));
     }
 

@@ -9,12 +9,8 @@ Feature: Add contacts
     And Click on Login button
     And Click on Add link
 
-#    And Enter Name
-#    And Enter Last Name
-#    And Enter Phone
-#    And enter email
-#    And enter Address
-#    And enter description
+#    And Appear Contact Form
+#     (Enter Name, Last Name, Phone, email, Address, description)
 #    And click on Save button
 
 
