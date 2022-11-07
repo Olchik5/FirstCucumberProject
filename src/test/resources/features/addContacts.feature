@@ -2,16 +2,16 @@ Feature: Add contacts
 
   @addContacts
   Scenario: Add contact
-    Given Navigate to Home Page
-    When Click on Login tab
-    Then Appear LoginRegistration form
-    And Enter valid data
-    And Click on Login button
+    Given Navigate to Home Page for ADD Contact
+    When Click on Login tab for ADD Contact
+    Then Appear LoginRegistration form for ADD Contact
+    And Enter valid data for ADD Contact
+    And Click on Login button for ADD Contact
     And Click on Add link
+    Then Fill Contact form
+    And click on Save button
+    Then Added Contact displayed
 
-#    And Appear Contact Form
-#     (Enter Name, Last Name, Phone, email, Address, description)
-#    And click on Save button
 
 
 
